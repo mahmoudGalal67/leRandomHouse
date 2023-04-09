@@ -132,10 +132,10 @@ function GiftDetails() {
             <div className='text-lg'>{gift.title}</div>
             <div>{gift.price}</div>
         <div className='text-xs items-center flex gap-5 p-3 border-2 border-green-300 w-fit'><img src={require("../assets/images/details/Group (1).png")} alt="" /> Same Day Delivery Available</div>
-        <div className='flex items-center  justify-center gap-5 w-60 border-2 border-black py-2 px-4 bg-gray text-center text-white cursor-pointer hover:scale-110 transition duration-100 ease-in-out' onClick={addToCart}><BsBag /> add to basket</div>
+        <div className='flex items-center  justify-center gap-5 w-60 border-2 border-black py-2 px-4 bg-gray text-center text-white cursor-pointer hover:scale-110 transition duration-100 ease-in-out' onClick={addToCart}><BsBag /> Add To Basket</div>
         {/* <div className='flex items-center justify-center  gap-5 w-60 border-2 border-black py-2 px-4 text-center cursor-pointer hover:scale-110 transition duration-100 ease-in-out'><AiOutlineHeart /> Add to favourites</div> */}
         {admin && <div className='p-4 bg-price my-5 text-white cursor-pointer hover:scale-110'  onClick={()=>deleteProduct(gift.id,gift.type)}>Delete</div>}
-        <div className='text-xs items-center flex gap-5'><img src={require("../assets/images/details/Group.png")} alt="" /> Free online returns within 14 days</div>
+        <div className='text-xs items-center flex gap-5'><img src={require("../assets/images/details/Group.png")} alt="" /> Free Online Returns Within 14 Days</div>
         </div>
       </div>
       <div className="same-category my-12">

@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux'
 
 
 const categories =
-  ["Abaya","Kaftan","Dresses","Lingerie","Tops","Pants","Skirts","Jeans","Sweat pants","Bags","Accessories","Shoes","Coats","Jackets",]
+  ["Abaya","Kaftan","Dresses","Lingerie","Tops","Pants","Skirts","Bags","Accessories","Shoes"]
 
 function AddProduct() {
   // const baseURL = "http://localhost:5000"
