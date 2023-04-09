@@ -1,0 +1,7 @@
+.cart-item svg{
+  transition: all .3s ease-in-out;
+}
+
+.cart-item:hover svg{
+  opacity: 1;
+}

@@ -1,0 +1,32 @@
+.types-page,
+.product-details{
+    /* the slides */
+  // .slick-slide {
+  //   margin-left:27px;
+  // }
+
+  // /* the parent */
+  // .slick-list {
+  //   margin-left:-27px;
+  // }
+
+.slick-prev:before,
+.slick-next:before{
+  background-color: #232424;
+  font-size: 16px;
+}
+.slick-next:before{
+content: '→';
+}
+
+.slick-prev {
+  top:45% !important;
+  left: 1% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 1% !important;
+  top: 45% !important;
+  z-index: 1;
+}
+}

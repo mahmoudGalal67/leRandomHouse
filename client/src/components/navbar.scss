@@ -1,0 +1,10 @@
+.navCategory{
+.wrapper{
+  @media (max-width:700px) {
+    font-size: 8px;
+  }
+  .active-nav{
+    background-color: white;
+    color: black;
+  }
+}}

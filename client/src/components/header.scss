@@ -1,0 +1,53 @@
+  @font-face {
+    font-family: 'nerea'; 
+    src: url('../assets/NereaFreeFont.ttf'); 
+  }
+  
+  
+  .header-logo{
+  font-family: nerea;
+  }
+
+.header{
+  .right{
+    .header-icons{
+      svg{
+        width: 35px;
+        height: 35px;
+        @media screen and (max-width: 700px) {
+        width: 20px;
+        height: 20px;
+        }
+      }
+    }
+    .cart-count{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -3px;
+      border-radius: 50%;
+      top: -6px;
+      bottom: 3px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: #FFFFFF;
+      background-color: red;
+
+      @media screen and (max-width: 700px){
+        width: 12px;
+        height: 12px;
+        top: -4px;
+        right: 0;
+      }
+    }
+  }
+}
